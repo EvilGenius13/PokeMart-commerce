@@ -1,0 +1,147 @@
+body {
+    font-family: 'Rockwell';
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    background-color: rgb(34, 161, 211);
+    background-image: url(/images/pokefinalbackground.jpeg);
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+
+}
+
+.page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.page-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.page-header a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+#pokeheader {
+    width: 100px;
+    height: 100px;
+    
+}
+.items {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.items img {
+    width: 60%;
+    height: auto;
+}
+
+.item {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(34, 161, 211, 0.6);
+}
+
+.img {
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.item p {
+    font-size: 16px;
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.item p:nth-child(1) {
+  color: white;
+  margin: 0px;
+}
+
+.item p:nth-child(2) {
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  font-size: 10px;
+  margin: 0px;
+}
+
+.item button {
+    font-family: impact;
+    color: #14396A !important;
+    font-size: 8px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63B8EE, #468CCF);
+    margin-bottom: 10px;
+}
+
+.item button:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+  }
+
+.remove, .add-one, .remove-one, .update {
+    font-family: impact;
+    color: #14396A !important;
+    font-size: 8px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63B8EE, #468CCF);
+    margin-bottom: 10px;
+  }
+
+  .remove:hover, .add-one:hover, .remove-one:hover, .update:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+  }
+  footer {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+   
+  }
+  
+  ul{
+  list-style-type: none;
+  }
